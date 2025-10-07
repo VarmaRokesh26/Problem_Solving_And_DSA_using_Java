@@ -43,7 +43,7 @@ n == heights[r].length
 0 <= heights[r][c] <= 105
  */
 
-public class Oct5th {
+public class PacificAtlanticWaterFlow417 {
     int[][] dir = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
     public List<List<Integer>> pacificAtlantic(int[][] heights) {
         List<List<Integer>> res = new ArrayList<>();

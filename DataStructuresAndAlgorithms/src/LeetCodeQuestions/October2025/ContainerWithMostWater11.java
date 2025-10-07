@@ -22,7 +22,7 @@ n == height.length
 0 <= height[i] <= 104
  */
 
-public class Oct4th {
+public class ContainerWithMostWater11 {
     public int maxArea(int[] height) {
         int left = 0, right = height.length-1;
         int max = 0;

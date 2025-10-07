@@ -24,7 +24,7 @@ Constraints:
 1 <= numBottles <= 100
 2 <= numExchange <= 100
  */
-public class Oct1st {
+public class WaterBottles1518 {
 
     public int numWaterBottles(int numBottles, int numExchange) {
         int consumedBottles = 0;

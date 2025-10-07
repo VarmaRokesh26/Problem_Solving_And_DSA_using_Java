@@ -25,7 +25,7 @@ n == heightMap[i].length
 
 import java.util.PriorityQueue;
 
-public class Oct3rd {
+public class TrappingRainWaterII407 {
     public int trapRainWater(int[][] heightMap) {
         int[] dRow = { 0, 0, -1, 1 };
         int[] dCol = { -1, 1, 0, 0 };

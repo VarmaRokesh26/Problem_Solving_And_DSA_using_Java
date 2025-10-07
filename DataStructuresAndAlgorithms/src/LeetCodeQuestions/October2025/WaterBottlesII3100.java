@@ -27,7 +27,7 @@ Constraints:
 1 <= numExchange <= 100
  */
 
-public class Oct2nd {
+public class WaterBottlesII3100 {
     public int maxBottlesDrunk(int numBottles, int numExchange) {
         int ans = numBottles;
         for (int empty = numBottles; empty >= numExchange; numExchange++) {

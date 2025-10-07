@@ -34,7 +34,7 @@ n == grid[i].length
 Each value grid[i][j] is unique
  */
 
-public class Oct6th {
+public class SwimInRisingWater778 {
     int[][] directions = { {0, 1}, {0, -1}, {1, 0}, {-1, 0} };
     public int swimInWater(int[][] grid) {
         int N = grid.length;
